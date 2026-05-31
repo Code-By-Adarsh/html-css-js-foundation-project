@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center; /*handle item on y axis*/
+    justify-content: space-evenly; /*handle item on x axis*/
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEV5gWfQ1Hy_N5oaVv7r15CXNkaB3lfOn1Hg&s);
+    background-size: cover;
+    background-position: center;
+}
