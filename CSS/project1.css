@@ -11,8 +11,6 @@ html,body{
 }
 
 main{
-    height: 100%;
-    width: 100%;
     background-color: rgb(238, 227, 104);
 }
 
@@ -62,7 +60,7 @@ section .hero-text1{
 
 section .hero-text2{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     gap: 170px;
 }
@@ -87,6 +85,62 @@ section .hero-text2{
 .video .play{
     height: 100%;
     width: 40px;
-    background-color: rgb(251, 248, 248);
+    background-color: rgb(250, 246, 246);
     border-radius: 80%;
+    border: 2px solid rgb(9, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i{
+    font-size: 30px;
+}
+
+#tag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-weight: 100;
+}
+
+.tag1{
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.image{
+    padding: 10px 20px;
+}
+
+.image1{
+    height: 450px;
+    width: 780px;
+    background-image: url(../Asset/Prosche.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(238, 227, 104);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+    top: -8%;
+    border: 3px solid black;
+    font-size: 40px;
 }
