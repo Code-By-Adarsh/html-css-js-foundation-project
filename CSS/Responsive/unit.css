@@ -10,8 +10,15 @@ html,body{
     background-color: black;
 }
 
-#box1{
-    height: 350px;
-    width: 50vw;
-    background-color: yellow;
+#p1{
+    color: white;
+    font-size: 20px;
+    width: 50ch;
+}
+
+#p2{
+    color: aqua;
+    font-size: 20px;
+    width: 50ch;
+    margin-top: 2lh;
 }
